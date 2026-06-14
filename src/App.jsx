@@ -1,10 +1,10 @@
-import JSXLesson from './lessons/01-jsx/JSXLesson';
+import Challenge1 from './challenges/01-jsx/Challenge1';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <JSXLesson />
+      <Challenge1 />
     </div>
   );
 }
