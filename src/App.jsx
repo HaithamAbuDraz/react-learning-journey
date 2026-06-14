@@ -1,10 +1,10 @@
-import ComponentsLesson from './lessons/02-components/ComponentsLesson';
+import PropsLesson from './lessons/03-props/PropsLesson';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <ComponentsLesson />
+      <PropsLesson />
     </div>
   );
 }
