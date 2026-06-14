@@ -1,4 +1,5 @@
 import ProfileCard from '../../challenges/03-props/ProfileCard';
+import SkillsCard from '../../challenges/03-props/SkillsCard';
 
 function PropsLesson() {
   return (
@@ -10,18 +11,12 @@ function PropsLesson() {
         location='Palestine'
         experience={2}
       />
-      <ProfileCard
-        name='Ahmed Khaled'
-        role='Frontend Developer'
-        location='Jordan'
-        experience={2}
-      />
-      <ProfileCard
-        name='Anas Batra'
-        role='Backend Developer'
-        location='Egypt'
-        experience={1}
-      />
+
+      <h2>Skills Cards</h2>
+      <SkillsCard skill='HTML' level='Advanced' />
+      <SkillsCard skill='CSS' level='Advanced' />
+      <SkillsCard skill='JavaScript' level='Intermediate' />
+      <SkillsCard skill='React' level='Beginner' />
     </div>
   );
 }
