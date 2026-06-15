@@ -1,11 +1,11 @@
-import HoverBox from './components/HoverBox';
+import UserGreeting from './components/UserGreeting';
 
 function EventsChallenge() {
   return (
     <div>
       <h1>State Challenge</h1>
 
-      <HoverBox />
+      <UserGreeting />
     </div>
   );
 }
