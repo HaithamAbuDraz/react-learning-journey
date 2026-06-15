@@ -1,10 +1,10 @@
-import StateLesson from './lessons/04-state/StateLesson';
+import StateChallenge from './challenges/04-state/StateChallenge';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <StateLesson />
+      <StateChallenge />
     </div>
   );
 }
