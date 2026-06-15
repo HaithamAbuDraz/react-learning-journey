@@ -1,11 +1,11 @@
-import ToggleMessage from '../../challenges/04-state/components/ToggleMessage';
+import Dashboard from '../../challenges/04-state/components/Dashboard';
 
 function StateChallenge() {
   return (
     <div>
       <h1>State Challenge</h1>
 
-      <ToggleMessage />
+      <Dashboard />
     </div>
   );
 }
