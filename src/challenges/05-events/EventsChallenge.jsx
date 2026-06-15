@@ -1,11 +1,11 @@
-import UserForm from './components/UserForm';
+import HoverBox from './components/HoverBox';
 
 function EventsChallenge() {
   return (
     <div>
       <h1>State Challenge</h1>
 
-      <UserForm />
+      <HoverBox />
     </div>
   );
 }
