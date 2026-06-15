@@ -1,11 +1,11 @@
-import ColorSwitcher from './components/ColorSwitcher';
+import UserForm from './components/UserForm';
 
 function EventsChallenge() {
   return (
     <div>
       <h1>State Challenge</h1>
 
-      <ColorSwitcher />
+      <UserForm />
     </div>
   );
 }
