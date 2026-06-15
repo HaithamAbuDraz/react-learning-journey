@@ -1,10 +1,10 @@
-import StateChallenge from './challenges/04-state/StateChallenge';
+import EventsLesson from './lessons/05-events/EventsLesson';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <StateChallenge />
+      <EventsLesson />
     </div>
   );
 }
