@@ -1,11 +1,11 @@
-import UserRole from './components/UserRole';
+import LoginSystem from './components/LoginSystem';
 
 function ConditionalRenderingChallenge() {
   return (
     <div>
       <h1>Conditional Rendering Challenge</h1>
 
-      <UserRole />
+      <LoginSystem />
     </div>
   );
 }
