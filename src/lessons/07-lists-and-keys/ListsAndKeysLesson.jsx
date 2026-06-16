@@ -1,21 +1,21 @@
-import UserCard from './components/UserCard';
+import ProductCard from './components/ProductCard';
 
 function ListsAndKeysLesson() {
-  const users = [
+  const products = [
     {
       id: 1,
-      name: 'Haitham',
-      role: 'Software Engineer',
+      name: 'Laptop',
+      price: 1000,
     },
     {
       id: 2,
-      name: 'Ahmed',
-      role: 'Frontend Developer',
+      name: 'Keyboard',
+      price: 50,
     },
     {
       id: 3,
-      name: 'Sara',
-      role: 'UI/UX Designer',
+      name: 'Mouse',
+      price: 25,
     },
   ];
 
@@ -23,8 +23,13 @@ function ListsAndKeysLesson() {
     <div>
       <h1>Lists and Keys Lesson</h1>
 
-      {users.map((user) => (
-        <UserCard key={user.id} name={user.name} role={user.role} />
+      <h2>Products</h2>
+      {products.map((product) => (
+        <ProductCard
+          key={product.id}
+          name={product.name}
+          price={product.price}
+        />
       ))}
     </div>
   );
