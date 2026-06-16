@@ -1,10 +1,10 @@
-import ConditionalRenderingLesson from './lessons/06-conditional-rendering/ConditionalRenderingLesson';
+import ConditionalRenderingChallenge from './challenges/06-conditional-rendering/ConditionalRenderingChallenge';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <ConditionalRenderingLesson />
+      <ConditionalRenderingChallenge />
     </div>
   );
 }
