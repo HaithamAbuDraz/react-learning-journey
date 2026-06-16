@@ -1,11 +1,11 @@
-import AgeChecker from './components/AgeChecker';
+import NotificationBadge from './components/NotificationBadge';
 
 function ConditionalRenderingChallenge() {
   return (
     <div>
       <h1>Conditional Rendering Challenge</h1>
 
-      <AgeChecker />
+      <NotificationBadge />
     </div>
   );
 }
