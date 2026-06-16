@@ -1,10 +1,10 @@
-import ConditionalRenderingChallenge from './challenges/06-conditional-rendering/ConditionalRenderingChallenge';
+import ListsAndKeysLesson from './lessons/07-lists-and-keys/ListsAndKeysLesson';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <ConditionalRenderingChallenge />
+      <ListsAndKeysLesson />
     </div>
   );
 }
