@@ -1,11 +1,11 @@
-import PageTitle from './components/PageTitle'
+import Clock from './components/Clock'
 
 function UseEffectLesson () {
   return (
     <div>
       <h1>Use Effect Lesson</h1>
 
-      <PageTitle />
+      <Clock />
     </div>
   );
 }
