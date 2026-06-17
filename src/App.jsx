@@ -1,10 +1,10 @@
-import ListsAndKeysChallenge from './challenges/07-lists-and-keys/ListsAndKeysChallenge';
+import UseEffectLesson from './lessons/08-useEffect/UseEffectLesson';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <ListsAndKeysChallenge />
+      <UseEffectLesson />
     </div>
   );
 }
