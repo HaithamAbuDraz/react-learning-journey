@@ -1,15 +1,23 @@
-import { useEffect } from "react";
+import { useEffect, useState } from 'react';
 
-function PageTitle () {
+function PageTitle() {
+  const [count, setCount] = useState(0);
+
   useEffect(() => {
-    document.title = 'React useEffect Lesson'
-
-    console.log('Component Mounted');
-  }, []);
+    document.title = `Count: ${count}`;
+  }, [count]);
 
   return (
     <div>
-      <h2>Check Browser Tab Title</h2>
+      <h2>Count: {count}</h2>
+
+      <button
+        onClick={() => {
+          setCount(count + 1);
+        }}
+      >
+        Increase
+      </button>
     </div>
   );
 }
