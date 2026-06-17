@@ -1,11 +1,11 @@
-import Clock from './components/Clock'
+import WindowWidth from './components/WindowWidth'
 
 function UseEffectLesson () {
   return (
     <div>
       <h1>Use Effect Lesson</h1>
 
-      <Clock />
+      <WindowWidth />
     </div>
   );
 }
