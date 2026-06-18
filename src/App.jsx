@@ -1,10 +1,9 @@
-import UseEffectLesson from './lessons/08-useEffect/UseEffectLesson';
-import './App.css';
+import UseEffectChallenge from './challenges/08-useEffect/UseEffectChallenge';
 
 function App() {
   return (
     <div>
-      <UseEffectLesson />
+      <UseEffectChallenge />
     </div>
   );
 }
