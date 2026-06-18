@@ -1,10 +1,9 @@
-import BackgroundChanger from './components/BackgroundChanger';
+import AutoCounter from './components/AutoCounter';
 
 function UseEffectChallenge() {
-  
   return (
-    <div>      
-      <BackgroundChanger />
+    <div>
+      <AutoCounter />
     </div>
   );
 }
