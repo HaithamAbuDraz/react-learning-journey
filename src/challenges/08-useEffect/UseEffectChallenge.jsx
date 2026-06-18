@@ -1,9 +1,9 @@
-import AutoCounter from './components/AutoCounter';
+import DigitalClock from './components/DigitalClock';
 
 function UseEffectChallenge() {
   return (
     <div>
-      <AutoCounter />
+      <DigitalClock />
     </div>
   );
 }
