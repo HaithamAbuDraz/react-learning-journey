@@ -1,9 +1,9 @@
-import UseEffectChallenge from './challenges/08-useEffect/UseEffectChallenge';
+import ApiCallsLesson from './lessons/09-api-calls/ApiCallsLesson';
 
 function App() {
   return (
     <div>
-      <UseEffectChallenge />
+      <ApiCallsLesson />
     </div>
   );
 }
