@@ -1,11 +1,11 @@
-import UserFetcher from './components/UserFetcher';
+import UsersList from './components/UsersList';
 
 function ApiCallsLesson() {
   return (
     <div>
       <h1>API Calls Lesson</h1>
 
-      <UserFetcher />
+      <UsersList />
     </div>
   );
 }
