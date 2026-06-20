@@ -1,9 +1,10 @@
-import TodosList from './components/TodosList';
+import GitHubSearch from './components/GitHubSearch';
+
 
 function ApiCallsChallenge() {
   return (
     <div>
-      <TodosList />
+      <GitHubSearch />
     </div>
   );
 }
