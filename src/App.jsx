@@ -1,9 +1,9 @@
-import ApiCallsLesson from './lessons/09-api-calls/ApiCallsLesson';
+import ApiCallsChallenge from './challenges/09-api-calls/ApiCallsChallenge';
 
 function App() {
   return (
     <div>
-      <ApiCallsLesson />
+      <ApiCallsChallenge />
     </div>
   );
 }
