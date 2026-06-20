@@ -1,9 +1,9 @@
-import PostsList from './components/PostsList';
+import TodosList from './components/TodosList';
 
 function ApiCallsChallenge() {
   return (
     <div>
-      <PostsList />
+      <TodosList />
     </div>
   );
 }
