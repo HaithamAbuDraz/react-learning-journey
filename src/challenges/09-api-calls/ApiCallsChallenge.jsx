@@ -1,10 +1,10 @@
-import GitHubSearch from './components/GitHubSearch';
+import WeatherApp from './components/WeatherApp';
 
 
 function ApiCallsChallenge() {
   return (
     <div>
-      <GitHubSearch />
+      <WeatherApp />
     </div>
   );
 }
