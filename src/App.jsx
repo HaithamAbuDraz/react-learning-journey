@@ -1,9 +1,9 @@
-import ApiCallsChallenge from './challenges/09-api-calls/ApiCallsChallenge';
+import CustomHooksLesson from './lessons/10-custom-hooks/CustomHooksLesson';
 
 function App() {
   return (
     <div>
-      <ApiCallsChallenge />
+      <CustomHooksLesson />
     </div>
   );
 }
