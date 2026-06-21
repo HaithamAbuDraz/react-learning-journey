@@ -1,9 +1,9 @@
-import CustomHooksLesson from './lessons/10-custom-hooks/CustomHooksLesson';
+import CustomHooksChallenge from './challenges/10-custom-hooks/CustomHooksChallenge';
 
 function App() {
   return (
     <div>
-      <CustomHooksLesson />
+      <CustomHooksChallenge />
     </div>
   );
 }
