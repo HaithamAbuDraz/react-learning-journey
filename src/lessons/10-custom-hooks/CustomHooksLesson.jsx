@@ -1,11 +1,11 @@
-import Counter from './components/Counter';
+import UserList from './components/UserList';
 
 function CustomHooksLesson() {
   return (
     <div>
       <h1>Custom Hooks Lesson</h1>
 
-      <Counter />
+      <UserList />
     </div>
   );
 }
