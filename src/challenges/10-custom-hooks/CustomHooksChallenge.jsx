@@ -1,9 +1,9 @@
-import InputDemo from './components/InputDemo';
+import GitHubSearchWithHooks from './components/GitHubSearchWithHooks';
 
 function CustomHooksChallenge() {
   return (
     <div>
-      <InputDemo />
+      <GitHubSearchWithHooks />
     </div>
   );
 }
