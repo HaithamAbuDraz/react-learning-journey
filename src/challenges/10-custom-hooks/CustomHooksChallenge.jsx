@@ -1,11 +1,9 @@
-CustomHooksChallenge;
-
-import ToggleDemo from './components/ToggleDemo';
+import InputDemo from './components/InputDemo';
 
 function CustomHooksChallenge() {
   return (
     <div>
-      <ToggleDemo />
+      <InputDemo />
     </div>
   );
 }
