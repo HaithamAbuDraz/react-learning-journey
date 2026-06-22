@@ -1,11 +1,11 @@
-import BasicForm from './components/BasicForm';
+import LoginForm from './components/LoginForm';
 
 function FormsLesson() {
   return (
     <div>
       <h1>Forms Lesson</h1>
 
-      <BasicForm />
+      <LoginForm />
     </div>
   );
 }
