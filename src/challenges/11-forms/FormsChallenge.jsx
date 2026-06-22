@@ -1,9 +1,9 @@
-import CharacterCounter from './components/CharacterCounter';
+import PasswordStrength from './components/PasswordStrength';
 
 function FormsChallenge() {
   return (
     <div>
-      <CharacterCounter />
+      <PasswordStrength />
     </div>
   );
 }
