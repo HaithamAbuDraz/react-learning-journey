@@ -1,9 +1,9 @@
-import PasswordStrength from './components/PasswordStrength';
+import SelectRole from './components/SelectRole';
 
 function FormsChallenge() {
   return (
     <div>
-      <PasswordStrength />
+      <SelectRole />
     </div>
   );
 }
