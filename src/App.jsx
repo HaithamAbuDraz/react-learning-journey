@@ -1,9 +1,9 @@
-import FormsLesson from './lessons/11-forms/FormsLesson';
+import FormsChallenge from './challenges/11-forms/FormsChallenge';
 
 function App() {
   return (
     <div>
-      <FormsLesson />
+      <FormsChallenge />
     </div>
   );
 }
