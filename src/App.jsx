@@ -1,9 +1,9 @@
-import CustomHooksChallenge from './challenges/10-custom-hooks/CustomHooksChallenge';
+import FormsLesson from './lessons/11-forms/FormsLesson';
 
 function App() {
   return (
     <div>
-      <CustomHooksChallenge />
+      <FormsLesson />
     </div>
   );
 }
