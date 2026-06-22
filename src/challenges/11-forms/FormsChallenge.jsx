@@ -1,9 +1,9 @@
-import SelectRole from './components/SelectRole';
+import ContactForm from './components/ContactForm';
 
 function FormsChallenge() {
   return (
     <div>
-      <SelectRole />
+      <ContactForm />
     </div>
   );
 }
