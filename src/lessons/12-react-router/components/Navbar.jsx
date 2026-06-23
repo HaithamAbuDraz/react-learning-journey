@@ -20,6 +20,10 @@ function Navbar() {
       {' | '}
 
       <NavLink to='/services'>Services</NavLink>
+
+      {' | '}
+
+      <NavLink to='/products'>Products</NavLink>
     </nav>
   );
 }
