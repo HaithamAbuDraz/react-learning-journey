@@ -7,6 +7,8 @@ import Users from '../../lessons/12-react-router/pages/Users';
 import UserProfile from '../../lessons/12-react-router/pages/UserProfile';
 import Services from './pages/Services';
 import ServiceDetail from './pages/ServiceDetail';
+import Products from './pages/Products';
+import ProductDetails from './pages/ProductDetails';
 
 function ReactRouterChallenge() {
   return (
@@ -23,6 +25,8 @@ function ReactRouterChallenge() {
         <Route path='/users/:id' element={<UserProfile />} />
         <Route path='/services' element={<Services />} />
         <Route path='/services/:id' element={<ServiceDetail />} />
+        <Route path='/products' element={<Products />} />
+        <Route path='/products/:id' element={<ProductDetails />} />
       </Routes>
     </BrowserRouter>
   );
