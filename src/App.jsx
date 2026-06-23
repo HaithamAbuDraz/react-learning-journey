@@ -1,9 +1,9 @@
-import FormsChallenge from './challenges/11-forms/FormsChallenge';
+import ReactRouterLesson from './lessons/12-react-router/ReactRouterLesson';
 
 function App() {
   return (
     <div>
-      <FormsChallenge />
+      <ReactRouterLesson />
     </div>
   );
 }
