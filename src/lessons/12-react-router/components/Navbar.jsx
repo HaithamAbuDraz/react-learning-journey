@@ -12,6 +12,10 @@ function Navbar() {
       {' | '}
 
       <NavLink to='/contact'>Contact</NavLink>
+
+      {' | '}
+
+      <NavLink to='/users'>Users</NavLink>
     </nav>
   );
 }
