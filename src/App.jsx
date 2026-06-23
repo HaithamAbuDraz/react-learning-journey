@@ -1,9 +1,9 @@
-import ReactRouterLesson from './lessons/12-react-router/ReactRouterLesson';
+import ReactRouterChallenge from './challenges/12-react-router/ReactRouterChallenge';
 
 function App() {
   return (
     <div>
-      <ReactRouterLesson />
+      <ReactRouterChallenge />
     </div>
   );
 }
