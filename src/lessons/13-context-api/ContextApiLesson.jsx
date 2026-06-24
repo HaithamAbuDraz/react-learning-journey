@@ -1,14 +1,17 @@
-import Dashboard from './components/Dashboard';
+import ThemeSwitcher from './components/ThemeSwitcher';
 import UserProvider from './providers/UserProvider';
+import ThemeProvider from './providers/ThemeProvider';
 
 function ContextApiLesson() {
   return (
     <UserProvider>
-      <div>
-        <h1>Context API Lesson</h1>
+      <ThemeProvider>
+        <div>
+          <h1>Context API Lesson</h1>
 
-        <Dashboard />
-      </div>
+          <ThemeSwitcher />
+        </div>
+      </ThemeProvider>
     </UserProvider>
   );
 }
