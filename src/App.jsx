@@ -1,9 +1,9 @@
-import ReactRouterChallenge from './challenges/12-react-router/ReactRouterChallenge';
+import ContextApiLesson from './lessons/13-context-api/ContextApiLesson';
 
 function App() {
   return (
     <div>
-      <ReactRouterChallenge />
+      <ContextApiLesson />
     </div>
   );
 }
