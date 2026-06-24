@@ -1,9 +1,9 @@
-import ContextApiLesson from './lessons/13-context-api/ContextApiLesson';
+import ContextApiChallenge from './challenges/13-context-api/ContextApiChallenge';
 
 function App() {
   return (
     <div>
-      <ContextApiLesson />
+      <ContextApiChallenge />
     </div>
   );
 }
