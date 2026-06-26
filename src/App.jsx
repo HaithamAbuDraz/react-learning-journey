@@ -1,11 +1,7 @@
-import ContextApiChallenge from './challenges/13-context-api/ContextApiChallenge';
+import UseReducerLesson from './lessons/14-useReducer/UseReducerLesson';
 
 function App() {
-  return (
-    <div>
-      <ContextApiChallenge />
-    </div>
-  );
+  return <UseReducerLesson />;
 }
 
 export default App;
