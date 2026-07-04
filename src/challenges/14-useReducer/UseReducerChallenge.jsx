@@ -1,4 +1,4 @@
-import TodoApp from './components/TodoApp';
+import FormApp from './components/FormApp';
 
 function UseReducerChallenge() {
   return (
@@ -6,8 +6,8 @@ function UseReducerChallenge() {
       <h1>useReducer Challenges</h1>
 
       <section>
-        <h2>Challenge 1: Todo Reducer</h2>
-        <TodoApp />
+        <h2>Challenge 2: Form Reducer</h2>
+        <FormApp />
       </section>
     </div>
   );
