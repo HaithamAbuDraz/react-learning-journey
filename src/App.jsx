@@ -1,7 +1,7 @@
-import UseReducerLesson from './lessons/14-useReducer/UseReducerLesson';
+import UseReducerChallenge from './challenges/14-useReducer/UseReducerChallenge';
 
 function App() {
-  return <UseReducerLesson />;
+  return <UseReducerChallenge />;
 }
 
 export default App;
