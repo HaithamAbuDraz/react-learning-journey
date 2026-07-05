@@ -6,7 +6,7 @@ function UseReducerChallenge() {
       <h1>useReducer Challenges</h1>
 
       <section>
-        <h2>Challenge 2: Form Reducer</h2>
+        <h2>Challenge 3: Counter with Step Control</h2>
         <StepCounter />
       </section>
     </div>
