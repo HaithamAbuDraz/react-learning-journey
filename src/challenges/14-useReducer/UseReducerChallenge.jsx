@@ -1,4 +1,4 @@
-import FormApp from './components/FormApp';
+import StepCounter from './components/StepCounter';
 
 function UseReducerChallenge() {
   return (
@@ -7,7 +7,7 @@ function UseReducerChallenge() {
 
       <section>
         <h2>Challenge 2: Form Reducer</h2>
-        <FormApp />
+        <StepCounter />
       </section>
     </div>
   );
