@@ -1,4 +1,4 @@
-import StepCounter from './components/StepCounter';
+import CartApp from './components/CartApp';
 
 function UseReducerChallenge() {
   return (
@@ -6,8 +6,8 @@ function UseReducerChallenge() {
       <h1>useReducer Challenges</h1>
 
       <section>
-        <h2>Challenge 3: Counter with Step Control</h2>
-        <StepCounter />
+        <h2>Mini Project: Cart System</h2>
+        <CartApp />
       </section>
     </div>
   );
