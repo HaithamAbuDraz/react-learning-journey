@@ -1,7 +1,7 @@
-import UseReducerChallenge from './challenges/14-useReducer/UseReducerChallenge';
+import PerformanceOptimizationLesson from './lessons/15-performance-optimization/PerformanceOptimizationLesson';
 
 function App() {
-  return <UseReducerChallenge />;
+  return <PerformanceOptimizationLesson />;
 }
 
 export default App;
