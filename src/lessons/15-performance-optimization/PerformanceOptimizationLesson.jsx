@@ -1,11 +1,11 @@
-import ExpensiveCalculation from './components/ExpensiveCalculation';
+import SearchList from './components/SearchList';
 
 function PerformanceOptimizationLesson() {
   return (
     <div>
       <h1>Performance Optimization</h1>
 
-      <ExpensiveCalculation />
+      <SearchList />
 
     </div>
   );
