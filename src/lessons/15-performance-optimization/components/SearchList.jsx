@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react';
 
-function SearchList() {
-  const users = ['Haitham', 'Ahmed', 'Sara', 'Omar', 'Noor'];
+const users = ['Haitham', 'Ahmed', 'Sara', 'Omar', 'Noor'];
 
+function SearchList() {
   const [search, setSearch] = useState('');
 
   const filteredUsers = useMemo(() => {
