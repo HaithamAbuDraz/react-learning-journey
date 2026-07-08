@@ -1,7 +1,7 @@
-import PerformanceOptimizationLesson from './lessons/15-performance-optimization/PerformanceOptimizationLesson';
+import PerformanceOptimizationChallenge from "./challenges/15-performance-optimization/PerformanceOptimizationChallenge";
 
 function App() {
-  return <PerformanceOptimizationLesson />;
+  return <PerformanceOptimizationChallenge />;
 }
 
 export default App;
