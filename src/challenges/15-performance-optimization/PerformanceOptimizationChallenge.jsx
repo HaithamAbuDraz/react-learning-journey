@@ -1,4 +1,4 @@
-import TodoApp from './components/TodoApp';
+import HeavyCalculation from './components/HeavyCalculation';
 
 function PerformanceOptimizationChallenge() {
   return (
@@ -6,8 +6,8 @@ function PerformanceOptimizationChallenge() {
       <h1>Performance Optimization Challenges</h1>
 
       <section style={{ marginBottom: '40px' }}>
-        <h2>Challenge 2: Todo App with Memoized Items</h2>
-        <TodoApp />
+        <h2>Challenge 3: Heavy Calculation (useMemo)</h2>
+        <HeavyCalculation />
       </section>
     </div>
   );
