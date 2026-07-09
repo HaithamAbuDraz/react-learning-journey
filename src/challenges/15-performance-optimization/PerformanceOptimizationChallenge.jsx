@@ -1,4 +1,4 @@
-import HeavyCalculation from './components/HeavyCalculation';
+import ProductDashboard from './components/ProductDashboard';
 
 function PerformanceOptimizationChallenge() {
   return (
@@ -6,8 +6,8 @@ function PerformanceOptimizationChallenge() {
       <h1>Performance Optimization Challenges</h1>
 
       <section style={{ marginBottom: '40px' }}>
-        <h2>Challenge 3: Heavy Calculation (useMemo)</h2>
-        <HeavyCalculation />
+        <h2>Mini Project: Product Dashboard</h2>
+        <ProductDashboard />
       </section>
     </div>
   );
