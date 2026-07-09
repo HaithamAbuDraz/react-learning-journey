@@ -1,4 +1,4 @@
-import ProductSearch from './components/ProductSearch';
+import TodoApp from './components/TodoApp';
 
 function PerformanceOptimizationChallenge() {
   return (
@@ -6,10 +6,9 @@ function PerformanceOptimizationChallenge() {
       <h1>Performance Optimization Challenges</h1>
 
       <section style={{ marginBottom: '40px' }}>
-        <h2>Challenge 1: Product Search (useMemo)</h2>
-        <ProductSearch />
+        <h2>Challenge 2: Todo App with Memoized Items</h2>
+        <TodoApp />
       </section>
-
     </div>
   );
 }
