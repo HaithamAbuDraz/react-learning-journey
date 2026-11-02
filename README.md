@@ -35,6 +35,7 @@ Each lesson contains:
 * 🧩 Challenges
 * 🏗️ Mini projects
 * 📝 Git commits for progress tracking
+* 📑 [**Lessons Notes**](./src/lessons/README.md) & [**Challenges Notes**](./src/challenges/README.md)
 
 ---
 
